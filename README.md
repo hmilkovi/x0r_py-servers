@@ -1,7 +1,7 @@
 ![alt text](x0r_py-servers.png)
 Step 1:
 Place the x0r_py-servers folder and all its contents into the box you want to run your server from.
-and
+
 Copy all the files you want into the `xfil/` folder.
 
 Step 2:
