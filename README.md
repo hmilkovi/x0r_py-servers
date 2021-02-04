@@ -18,14 +18,15 @@ Alternatively, you can run the script using the following syntax `python3 start-
 
 
 Step 3:
-Access your server to retrieve your files from a remote host
-if using SSL navigate to:
+Access your server to retrieve your files from a remote host.
+
+If using SSL navigate to:
 
 https://\<IP>\/xfil-SSL.html
 
 if using a normal http server navigate to:
 
-http://\<IP>\/xfil-plaintext.html
+http://\<IP>:8000/xfil-plaintext.html
 
 When you run the scripts it will give you the actual links to the servers
 
