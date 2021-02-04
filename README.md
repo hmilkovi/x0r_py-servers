@@ -1,4 +1,7 @@
 ![alt text](x0r_py-servers.png)
+
+Requirements: Python3
+
 Step 1:
 
 Place the `x0r_py-servers/` folder and all its contents into the box you want to run your server from. This can be downloaded as a zip, or retrieved with git.
