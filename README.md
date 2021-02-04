@@ -18,11 +18,11 @@ Step 3:
 Access your server to retrieve your files from a remote host
 if using SSL navigate to:
 
-https://<IP>/xfil-SSL.html
+https://\<IP>\/xfil-SSL.html
 
 if using a normal http server navigate to:
 
-http://<IP>/xfil-plaintext.html
+http://\<IP>\/xfil-plaintext.html
 
 When you run the scripts it will give you the actual links to the servers
 
