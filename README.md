@@ -8,10 +8,12 @@ Place the `x0r_py-servers/` folder and all its contents into the box you want to
 
 ```
 wget https://github.com/x0r-sys/x0r_py-servers/archive/main.zip
+unzip main.zip
 ```
 or
 ```
 git clone https://github.com/x0r-sys/x0r_py-servers.git
+cd x0r_py-servers/
 ```
 Step 2:
 
@@ -24,10 +26,16 @@ Copy all the files you want remote access to, into the `xfil/` folder located in
 
 Step 3:
 
-Running the (__start-servers_x0r.py__) script will walk you through setting up a server.
-The options will ask you to choose between setting up a https server with SSL, or a regular http server.  This script uses default keys created by `x0r` that can be used as a quick solution in a tunnel, or local network, to encrypt data in transit with TLS 1.3, but could be exposed to decryption by users of this repo who have access to these keys.
 
-If you want to create `fresh` SSL keys to be used with your python https server then run (__gen-SSL-keys_start-server_x0r.py__) instead!!.
+```
+./start-servers_x0r.py
+```
+This script will walk you through setting up a server. The options will ask you to choose between setting up a https server with SSL, or a regular http server.  This script uses default keys created by `x0r` that can be used as a quick solution in a tunnel, or local network, to encrypt data in transit with TLS 1.3, but could be exposed to decryption by users of this repo who have access to these keys.
+
+```
+./gen-SSL-keys_start-server_x0r.py
+```
+This script will create `fresh` SSL keys to be used with your python https server!!.
 This way you can use `fresh` keys with each https instance if you want.
 
 NOTE: While the server session is maintained the terminal window will hang to provide http responses from the http/https server. 
