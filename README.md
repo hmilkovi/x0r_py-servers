@@ -14,6 +14,8 @@ This way you can use `fresh` keys with each https instance if you want.
 NOTE: While the server session is maintained the terminal window will hang to provide http responses from the http/https server. 
 Open additional windows or background the session to have access to your terminal.
 
+Alternatively, you can run the script using the following syntax `python3 start-servers_x0r.py &` so you can just hit enter once the server starts to retrieve your terminal if using from low TTY.
+
 
 Step 3:
 Access your server to retrieve your files from a remote host
