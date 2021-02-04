@@ -2,7 +2,7 @@
 Step 1:
 Place the `x0r_py-servers/` folder and all its contents into the box you want to run your server from.
 
-Copy all the files you want into the `xfil/` folder located in the main `x0r_py-servers/` directory.
+Copy all the files you want to exfiltrate off the server into the `xfil/` folder located in the main `x0r_py-servers/` directory.
 
 Step 2:
 Running the (__start-servers_x0r.py__) script will walk you through setting up a server.
