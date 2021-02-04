@@ -18,5 +18,7 @@ if using a normal http server navigate to:
 
 http://<IP>/xfil-plaintext.html
 
+When you run the script it will give you the actual link to the server
+
 Step 4:
 EXFIL !!!!!
