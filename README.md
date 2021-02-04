@@ -28,3 +28,6 @@ When you run the scripts it will give you the actual links to the servers
 
 Step 4:
 EXFIL !!!!!
+
+TLDR:
+Make sure you have Pyhon 3 installed, then run the scripts and follow prompts!! >
