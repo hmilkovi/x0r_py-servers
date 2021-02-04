@@ -5,9 +5,9 @@ and
 Copy all the files you want to transfer in the xfil folder
 
 Step 2:
-Running the start-servers_x0r.py script will walk you through setting up a server.
+Running the __start-servers_x0r.py__ script will walk you through setting up a server.
 The options will ask you to choose between setting up a https server with SSL, or a regular http server.  This script uses default keys created by x0r.
-If you want to create fresh SSL keys to be used with your python https server then run gen-SSL-keys_start-server_x0r instead.
+If you want to create fresh SSL keys to be used with your python https server then run __gen-SSL-keys_start-server_x0r.py__ instead.
 This way you can use fresh keys with each https instance if you want.
 
 NOTE: While the server session is maintained the terminal window will hang to provide http responses from the http/https server. 
