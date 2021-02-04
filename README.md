@@ -20,6 +20,7 @@ chmod +x gen-SSL-keys_start-server_x0r.py start-servers_x0r.py
 Copy all the files you want remote access to, into the `xfil/` folder located in the main `x0r_py-servers/` directory.
 
 Step 3:
+
 Running the (__start-servers_x0r.py__) script will walk you through setting up a server.
 The options will ask you to choose between setting up a https server with SSL, or a regular http server.  This script uses default keys created by `x0r` that can be used as a quick solution in a tunnel, or local network, to encrypt data in transit with TLS 1.3, but could be exposed to decryption by users of this repo who have access to these keys.
 
@@ -31,6 +32,7 @@ Open additional windows or background the session to have access to your termina
 
 
 Step 4:
+
 Access your server to retrieve your files from a remote host.
 
 If using SSL navigate to:
