@@ -52,7 +52,7 @@ IP = input(prompt3)
 
 
 
-print ("\n\nPreparing SSL . . .")
+print (f"\n\nPreparing SSL . . .")
 time.sleep(1.5)
 #print (f"\n\n{name}\nThe PEM pass phrase to start your HTTPS server on {IP} is:\nx0rk3y")
 
