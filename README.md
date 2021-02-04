@@ -1,5 +1,6 @@
 ![alt text](x0r_py-servers.png)
 Step 1:
+
 Place the `x0r_py-servers/` folder and all its contents into the box you want to run your server from. This can be downloaded as a zip, or retrieved with git.
 
 ```
@@ -10,6 +11,7 @@ or
 git clone https://github.com/x0r-sys/x0r_py-servers.git
 ```
 Step 2:
+
 Make the python scripts executable.
 ```
 chmod +x gen-SSL-keys_start-server_x0r.py start-servers_x0r.py
