@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-# This script generates fresh SSL keys to be used with your https server, if you don't mind using the default keys, or if you want to just run a basic http server use start-servers_x0r.py instead
+# This script generates fresh SSL keys to be used with your python https server
+# if you don't mind using the default x0r keys, or if you want to just run a basic http server
+# use start-servers_x0r.py instead
 
 from subprocess import call
 import http.server, ssl
