@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-# This script generates fresh SSL keys to be used with your python https server
-# if you don't mind using the default x0r keys, or if you want to just run a basic http server
-# use start-servers_x0r.py instead
+# This script generates fresh SSL keys to be used with your https server, if you don't mind using the default keys, or if you want to just run a basic http server use start-servers_x0r.py instead
 
 from subprocess import call
 import http.server, ssl
@@ -19,9 +17,8 @@ pem = input(prompt1)
 print (f"Making Root Certificate PEM file . . ")
 pemgen = call(['openssl', 'req', '-x509', '-new', '-nodes', '-key', f'{key}.key', '-sha256', '-days', '420', '-out', f'{pem}.pem'])
 
-print = (f"Great . . we are almost done . . .!!!")
 
-prompt2 = "Last but not least, . . . . what is the current users name? \nType Name:  "
+prompt2 = "Type Name:  "
 
 name = input(prompt2)
 
@@ -52,7 +49,7 @@ IP = input(prompt3)
 
 
 
-print (f"\n\nPreparing SSL . . .")
+print ("\n\nPreparing SSL . . .")
 time.sleep(1.5)
 #print (f"\n\n{name}\nThe PEM pass phrase to start your HTTPS server on {IP} is:\nx0rk3y")
 
