@@ -1,5 +1,7 @@
 Step 1:
-Place all the files you want to transfer in the xfil folder
+Place the x0r_py-servers folder and all its contents into the box you want to run your server from.
+and
+Place copy all the files you want to transfer in the xfil folder
 
 Step 2:
 Run the start-servers_x0r.py script to walk you through setting up a server.
