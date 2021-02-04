@@ -38,7 +38,7 @@ This script will walk you through setting up a server. The options will ask you 
 This script will create `fresh` SSL keys to be used with your python https server!!.
 This way you can use `fresh` keys with each https instance if you want.
 
-NOTE: While the server session is maintained the terminal window will hang to provide http responses from the http/https server. 
+NOTE: While the server session is maintained, the terminal window will hang to provide http responses from the http/https server. 
 Open additional windows or background the session to have access to your terminal.
 
 
