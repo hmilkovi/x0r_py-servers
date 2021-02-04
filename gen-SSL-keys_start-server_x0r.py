@@ -17,8 +17,9 @@ pem = input(prompt1)
 print (f"Making Root Certificate PEM file . . ")
 pemgen = call(['openssl', 'req', '-x509', '-new', '-nodes', '-key', f'{key}.key', '-sha256', '-days', '420', '-out', f'{pem}.pem'])
 
+print = (f"Great . . we are almost done . . .!!!")
 
-prompt2 = "Type Name:  "
+prompt2 = "Last but not least, . . . . what is the current users name? \nType Name:  "
 
 name = input(prompt2)
 
