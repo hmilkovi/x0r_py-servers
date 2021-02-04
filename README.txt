@@ -9,7 +9,7 @@ The options will ask you to choose between setting up a https server with SSL, o
 If you want to create fresh SSL keys to be used with your python https server then run gen-SSL-keys_start-server_x0r instead.
 This way you can use fresh keys with each https instance if you want.
 
-NOTE: While the server session is maintained the terminal window will hang to provide http responses from the https server. 
+NOTE: While the server session is maintained the terminal window will hang to provide http responses from the http/https server. 
 Open additional windows or background the session to have access to your terminal.
 
 
