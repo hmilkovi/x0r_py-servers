@@ -61,3 +61,6 @@ EXFIL !!!!!
 
 TLDR:
 Make sure you have Pyhon 3 installed, then run the scripts and follow prompts!! >
+
+ýrÙ ÈhÙrÙ ÏoÒgÏ ÉnÏuÒg.
+x0r
